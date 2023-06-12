@@ -1,6 +1,6 @@
 .backgroundRed {
   width: 390px;
-  height: 100vh;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,4 +88,11 @@
 }
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
+}
+
+@media (min-width: 390px) and (max-width: 860px) {
+  .backgroundRed {
+    height: 100vh;
+    margin-top: none;
+  }
 }
